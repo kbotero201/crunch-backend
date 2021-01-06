@@ -11,7 +11,7 @@ Comment.destroy_all
 
 Cereal.create(
     name: "Lucky Charms",
-    image: "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png", 
+    image: './assets/images/lucky.chamrs.jpg', 
     likes: 0,
     description: "All the magically delicious lucky stuff: hearts, stars and horseshoes, clovers and blue moons, UNICORNS, rainbows and tasty red balloons! Plus crunchy, gluten-free oats, too!",
     topping: "Banana, Strawberry",
@@ -20,7 +20,7 @@ Cereal.create(
 
 Cereal.create(
     name: "Cinnamon Toast Crunch",
-    image: "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png" ,
+    image: './assets/images/CTC.jpg',
     likes: 0,
     description: "Made with real cinnamon-sparkly goodness, this cereal is so delicious you’ll want to crunch around the clock.",
     topping: "Banana",
@@ -29,7 +29,7 @@ Cereal.create(
 
 Cereal.create(
     name: "Magic Spoon",
-    image: "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png" ,
+    image: './assets/images/magic.spoon.jpg' ,
     likes: 0,
     description: "Magic Spoon is an adult version of what you loved as a kid—without the sugar, carbs, or guilt." "With cereal that tastes this good and offers so much nutritional value ... Magic Spoon may be the future of breakfast.",
     topping: "Strawberry, Blueberry, Raspberry",
@@ -38,7 +38,7 @@ Cereal.create(
 
 Cereal.create(
     name: "Froot Loops",
-    image: "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png" ,
+    image: './assets/images/froot.loops.jpg' ,
     likes: 0,
     description: "Froot Loops is a delicious, sweetened cereal made with whole grains. An excellent source of 8 vitamins and minerals, also low in fat. Bring some fun energy to your mornings, our colorful cold cereal makes for a tasty pick-me-up snack. ",
     topping: "Strawberry, Blueberry",
@@ -56,3 +56,4 @@ Comment.create(
     text: "CTC has been my fav since youth!",
     cereal_id: 2
 )
+
