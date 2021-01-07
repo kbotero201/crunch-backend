@@ -24,7 +24,7 @@ class Api::V1::CommentsController < ApplicationController
 
    private 
    def comment_params 
-        params.permit(:name, :text)
+        params.permit(:name, :text, :cereal_id)
    end 
 
 end 
