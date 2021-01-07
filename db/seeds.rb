@@ -45,6 +45,24 @@ Cereal.create(
     milk: "Regular Milk, Oat Milk"
 )
 
+Cereal.create(
+    name: "Frosted Flakes x Froot Loops",
+    image: './assets/images/mashup.jpg' ,
+    likes: 0,
+    description: "Under a new, limited-edition line of cereal called Mashups, Kellogg’s is now selling Frosted Flakes and Froot Loops in a single box. Kellogg’s is always looking to innovate and deliver new experiences that our cereal fans desire. ",
+    topping: "Banana, Blueberry",
+    milk: "Regular Milk, Almond Milk, Oat Milk"
+)
+
+Cereal.create(
+    name: "Rice Krispies",
+    image: './assets/images/rice.jpg' ,
+    likes: 0,
+    description: "Start off your day with a breakfast kids of all ages will love. Each spoonful of Kellogg's Rice Krispies Toasted Cereal contains snap-crackling toasted rice that literally pops in your mouth. A true family classic--fortified Rice Krispies Toasted Cereal contains 13 essential vitamins and minerals--to get your day off to a fun and healthy start.",
+    topping: "Banana",
+    milk: "Regular Milk, Almond Milk, Soy Milk, Oat Milk"
+)
+
 Comment.create(
     name: "John Smith",
     text: "Magic Spoon with strawberries are my GO-TO. Great recommendation!",
@@ -55,5 +73,35 @@ Comment.create(
     name: "Cindy Lou",
     text: "CTC has been my fav since youth!",
     cereal_id: 2
+)
+
+Comment.create(
+    name: "John Smith",
+    text: "Rice Krispies will forever have my heart!!",
+    cereal_id: 6
+)
+
+Comment.create(
+    name: "Bob Iger",
+    text: "Besides eating in a bowl, they are great for treats",
+    cereal_id: 6
+)
+
+Comment.create(
+    name: "Bob Iger",
+    text: "The collab no one knew we needed",
+    cereal_id: 5
+)
+
+Comment.create(
+    name: "Dill Pickels",
+    text: "SO ICONIC!! Need 20 of these plz",
+    cereal_id: 5
+)
+
+Comment.create(
+    name: "Gina Sue",
+    text: "This leprechaun has got me hooked since 5.",
+    cereal_id: 1
 )
 
