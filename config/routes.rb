@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :cereals, only: [:index, :show, :update]
-      resources :comments, only: [:index, :update, :create, :delete]
+      resources :comments, only: [:index, :show, :destroy, :create, :update]
     end
   end
 
