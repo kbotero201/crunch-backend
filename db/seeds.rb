@@ -69,6 +69,58 @@ Cereal.create(
     ad_url: "https://www.amazon.com/Rice-Krispies-Cereal-12-Ounce-Boxes/dp/B004078WRW"
 )
 
+Cereal.create(
+    name: "Apple Jacks - Caramel",
+    image: './assets/images/apple.jacks.jpg' ,
+    likes: 0,
+    description: "Start your morning with the sweet delicious taste of apples and cinnamon in every bite. Kellogg’s® Apple Jacks® Cereal is a delicious part of any balanced breakfast.",
+    topping: "Banana",
+    milk: "Regular Milk, Almond Milk, Soy Milk, Oat Milk",
+    ad_url: "https://www.walmart.com/ip/Kellogg-s-Apple-Jacks-Breakfast-Cereal-Caramel-Family-Size-19-4-Oz/410908630"
+)
+
+Cereal.create(
+    name: "All Together",
+    image: './assets/images/all.together.jpg' ,
+    likes: 0,
+    description: "The special edition box includes all your favorite Kellogg's characters like Tony the Tiger, Toucan Sam, Snap, Crackle & Pop among others.",
+    topping: "Banana",
+    milk: "Regular Milk, Oat Milk",
+    ad_url: "https://mix108.com/kelloggs-is-selling-special-edition-all-together-cereal-boxes/"
+)
+
+Cereal.create(
+    name: "Lucky Charms Marshmallows",
+    image: './assets/images/lucky.charms.marsh.jpg' ,
+    likes: 0,
+    description: "This super-limited supply of super-powered marshmallows is a pocket of pure magic. Inside, you’ll find hearts, stars and horseshoes, clovers and blue moons, unicorns, rainbows and tasty red balloons. And that’s it! Color the world with marshmallow magic – it’s your lucky day!",
+    topping: "Banana",
+    milk: "Regular Milk, Almond Milk, Soy Milk, Oat Milk",
+    ad_url: "https://www.walmart.com/ip/General-Mills-Limited-Edition-4-Boxes-of-Lucky-Charms-4-x-10-5-oz-and-Just-Magic-Marshmallows-Pouch-6-oz/587479120"
+)
+
+Cereal.create(
+    name: "Reese's Puffs Big Puffs",
+    image: './assets/images/big.puffs.jpg' ,
+    likes: 0,
+    description: "You’re going to need a bigger bowl, The “way, way, way bigger” Reese’s Puffs, as they’re described, are rolling out in select stores beginning in January 2020 before expanding availability in March 2020.",
+    topping: "Banana",
+    milk: "Regular Milk, Soy Milk",
+    ad_url: "https://www.walmart.com/ip/Reese-s-Puffs-Big-Puffs-Cereal-15-5-oz/874066635?irgwc=1&sourceid=imp_RXazbs1yixyLTeGwUx0Mo38KUkEy%3Ao1BWwysw80&veh=aff&wmlspartner=imp_10078&clickid=RXazbs1yixyLTeGwUx0Mo38KUkEy%3Ao1BWwysw80&sharedid=bestproducts.com&affiliates_ad_id=612734&campaign_id=9383"
+)
+
+Cereal.create(
+    name: "Mini Wheats",
+    image: './assets/images/mini.wheats.jpg' ,
+    likes: 0,
+    description: "Kellogg’s Frosted Mini-Wheats Original are made to help fill you up with 10 layers of whole shredded wheat in every delicious bite. Just 1 bowl, and you’re good till lunch!",
+    topping: "Banana, Strawberry, Blueberry",
+    milk: "Regular Milk, Oat Milk, Soy Milk",
+    ad_url: "https://www.walmart.com/ip/Kellogg-s-Frosted-Mini-Wheats-Breakfast-Cereal-Original-Family-Size-24-Oz/10789576"
+)
+
+
+
 Comment.create(
     name: "John Smith",
     text: "Magic Spoon with strawberries are my GO-TO. Great recommendation!",
